@@ -1,0 +1,1089 @@
+@media screen and (max-width : 1350px) {
+    .active{
+        display: block;
+    }
+    
+    header{
+        background-color: black;
+        width: 100%;
+        height: 150px;
+    }
+    header div:nth-of-type(1){
+        width: 100%;
+        height: 25px;
+        position: relative;
+    }
+    header div:nth-of-type(1) div{
+        position: absolute;
+        width: 25%;
+        height: 100%;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header div:nth-of-type(1) div a{
+        width: 50%;
+        text-align: center;
+        color: white;
+        font-weight: 200;
+        font-size: 15px;
+    }
+    header div:nth-of-type(1) div a:nth-of-type(1){
+        border-right: 1px solid white;
+    }
+    header div:nth-of-type(2){
+        width: 100%;
+        height: 125px;
+        display: flex;
+        align-items: center;
+    }
+    header div:nth-of-type(2) div:nth-of-type(1){
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header div:nth-of-type(2) div:nth-of-type(1) svg{
+        width: 65px;
+        height: 88px;
+        fill: white;
+    }
+    header div:nth-of-type(2) div:nth-of-type(2){
+        width: 55%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    header div:nth-of-type(2) div:nth-of-type(2) ul{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-left: 10px;
+        list-style: none;
+    }
+    header div:nth-of-type(2) div:nth-of-type(2) ul li a{
+        color: white;
+        font-weight: 600;
+    }
+    header div:nth-of-type(2) div:nth-of-type(3){
+        width: 35%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    header div:nth-of-type(2) div:nth-of-type(3) div{
+        width: 85%;
+        height: 60%;
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    header div:nth-of-type(2) div:nth-of-type(3) div a{
+        width: 18%;
+        height: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    header div:nth-of-type(2) div:nth-of-type(3) div a svg{
+        width: 34px;
+        height: 34px;
+    }
+    header div:nth-of-type(2) div:nth-of-type(3) div a h5{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    header div:nth-of-type(2) div:nth-of-type(3) div a:nth-of-type(1){
+        width: 14%;
+    }
+    
+    /* swiper */
+    
+    .swiper{
+        width: 100%;
+        height: 600px;
+    }
+    .swiper-slide{
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .swiper-slide img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .swiper-slide::before{
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(0, 0, 0, .5), transparent 50%), linear-gradient(0deg, rgba(0, 0, 0, .5), transparent 40%);
+    }
+    .swiper-button-next{
+        background-color: #081D30;
+        padding: 27px;
+        border: 2px solid rgb(105, 103, 103);
+        border-radius: 5px;
+    }
+    .swiper-button-prev{
+        background-color: #081D30;
+        padding: 27px;
+        border: 2px solid rgb(105, 103, 103);
+        border-radius: 5px;
+    }
+    .swiper-pagination{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .s-slide1{
+        position: absolute;
+        width: 620px;
+        height: 240px;
+        left: 110px;
+        top: 70px;
+        text-align: left;
+        z-index: 2;
+    }
+    .s-slide1 h1{
+        font-size: 55px;
+        color: white;
+    }
+    .s-slide1 h3{
+        font-size: 25px;
+        color: white;
+    }
+    .s-slide1 button{
+        width: 100px;
+        height: 50px;
+        background-color: white;
+        border: 1px solid black;
+        margin-top: 20px;
+    }
+    .s-slide1 button:hover{
+        background-color: #efdf00;
+        transition: all linear 350ms;
+    }
+    .s-slide1 button a{
+        font-size: 20px;
+        color: black;
+        font-weight: 600;
+    }
+    .s-slide3 button{
+        width: 130px;
+        height: 50px;
+    }
+    .s-slide3 h4{
+        color: white;
+    }
+    .s-slide3 h1{
+        font-size: 63px;
+    }
+    
+    /* help */
+    
+    .help{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .help-main{
+        width: 70%;
+        height: 80%;
+    }
+    .help-main div:nth-of-type(1){
+        width: 100%;
+        height: 30%;
+        text-align: center;
+    }
+    .help-main div:nth-of-type(2){
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .help-main div:nth-of-type(2) div{
+        width: 22%;
+        height: 60%;
+        border: 1px solid rgba(0, 0, 0, 0.200);
+    }
+    .help-main div:nth-of-type(2) div:hover{
+        border: 2px solid #efdf00;
+    }
+    .help-main div:nth-of-type(2) div a{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .help-main div:nth-of-type(2) div a svg{
+        width: 50px;
+        height: 50px;
+    }
+    .help-main div:nth-of-type(2) div a h4{
+        color: black;
+        font-size: 17px;
+    }
+    .help-main div:nth-of-type(1) h2{
+        padding-top: 15px;
+        font-size: 30px;
+    }
+    
+    /* journey */
+    
+    .journey{
+        width: 100%;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .journey-main{
+        width: 50%;
+        height: 60%;
+        text-align: center;
+    }
+    .journey-main h1{
+        font-size: 40px;
+    }
+    .journey-main p{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    
+    /* cards1 */
+    
+    .cards1{
+        width: 100%;
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards1-main{
+        width: 90%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 47px;
+    }
+    .c1{
+        width: 31%;
+        height: 100%;
+    }
+    .c1 a{
+        width: 100%;
+        height: 100%;
+    }
+    .c1 div:nth-of-type(1){
+        width: 100%;
+        height: 65%;
+    }
+    .c1 div:nth-of-type(1) img{
+        width: 100%;
+        height: 100%;
+    }
+    .c1 div:nth-of-type(2){
+        width: 100%;
+        height: 23%;
+        display: flex;
+        align-items: center;
+    }
+    .c1 div:nth-of-type(2) h4{
+        font-size: 22px;
+        color: black;
+    }
+    .c1 div:nth-of-type(3){
+        width: 100%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .c1 div:nth-of-type(3) h5{
+        font-size: 18px;
+        color: black;
+    }
+    .c1 div:nth-of-type(3):hover svg path{
+        fill: black;
+    }
+    
+    
+    /* search */
+    
+    .search{
+        width: 100%;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-main{
+        width: 95%;
+        height: 85%;
+        background-color: #F2F2F2;
+    }
+    .search-main div:nth-of-type(1){
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: end;
+        gap: 20px;
+    }
+    .search-main div:nth-of-type(2){
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+    }
+    .search-main div:nth-of-type(1) svg{
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .search-main div:nth-of-type(1) h2{
+        font-size: 30px;
+    }
+    .search-main div:nth-of-type(2) div{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        background-color: black;
+    }
+    .search-main div:nth-of-type(2) svg{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 3px;
+        bottom: 5px;
+        fill: white;
+    }
+    .search-main div:nth-of-type(2)  div:hover svg path{
+        fill: black;
+    }
+    .search-main div:nth-of-type(2) div:hover{
+        background-color: #efdf00;
+        transition: all linear 200ms;
+    }
+    .search-main div:nth-of-type(2) p{
+        font-size: 16px;
+    }
+    .search-main div:nth-of-type(2) select{
+        width: 220px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .search-main div:nth-of-type(2) input{
+        width: 270px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    .search-main div:nth-of-type(2) button{
+        width: 85px;
+        height: 45px;
+        font-size: 18px;
+        background-color: #efdf00;
+        font-weight: 600;
+        border: unset;
+    }
+    .search-main div:nth-of-type(2) button:hover{
+        background-color: #F8EB4C;
+        transition: all linear 200ms;
+    }
+    .search-main div:nth-of-type(2) button a{
+        color: black;
+    }
+    
+    /* our-vehicles */
+    
+    .our-vehicles{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-vehicles-main{
+        width: 65%;
+        height: 80%;
+        text-align: center;
+    }
+    .our-vehicles-main h1{
+        font-size: 43px;
+        margin-top: 25px;
+    }
+    .our-vehicles-main p{
+        font-size: 20px;
+        padding-top: 10px;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+    
+    /* models */
+    
+    .models{
+        width: 100%;
+        height: 1700px;
+        display: flex;
+        justify-content: center;
+    }
+    .models-main{
+        width: 85%;
+        height: 100%;
+    }
+    .models-list{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .models-list ul{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+    .models-list ul li{
+        font-size: 24px;
+    }
+    .models-list ul li:nth-of-type(1) a{
+        border-bottom: 2px solid black;
+    }
+    .models-list ul li a{
+        color: rgba(97, 96, 96, 0.736);
+    }
+    .models-list ul li:nth-of-type(1) a{
+        color: rgb(0, 0, 0);
+    }
+    .models-list ul li a:hover{
+        color: black;
+    }
+    .models-filter{
+        width: 100%;
+        height: 4%;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    .models-filter div{
+        width: 120px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.200);
+    }
+    .models-filter div h5{
+        font-size: 17px;
+    }
+    .models-filter2{
+        width: 100%;
+        height: 13%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #0091DA;
+    }
+    .models-filter2 div{
+        width: 60%;
+        height: 80%;
+    }
+    .models-filter2 div div{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .price-m .price-m-main{
+        width: 50%;
+        height: 80%;
+    }
+    .price-m .price-m-main input{
+        width: 300px;
+    }
+    .models-filter2 div div:nth-of-type(1) .checks div{
+        width: 120px;
+        height: 20px;
+        gap: 5px;
+    }
+    
+    .models-car{
+        width: 100%;
+        height: 82%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    .models-car div div:nth-of-type(1){
+        width: 100%;
+        height: 55%;
+    }
+    .models-car div div:nth-of-type(2){
+        width: 100%;
+        height: 6%;
+    }
+    .models-car div div:nth-of-type(3){
+        width: 100%;
+        height: 6%;
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+    }
+    .models-car div div:nth-of-type(4){
+        width: 100%;
+        height: 9%;
+        display: flex;
+        align-items: center;
+    }
+    .models-car div div:nth-of-type(5){
+        width: 100%;
+        height: 16%;
+        display: flex;
+    }
+    .models-car div div:nth-of-type(5) p{
+        font-size: 13px;
+    }
+    .models-car div div:nth-of-type(6) a{
+        font-size: 14px;
+    }
+    .models-car div div:nth-of-type(6){
+        width: 100%;
+        height: 8%;
+        display: flex;
+        align-items: center;
+    }
+    .models-car div div:nth-of-type(1) a{
+        width: 100%;
+        height: 100%;
+    }
+    .models-car div div:nth-of-type(1) a img{
+        width: 85%;
+        height: 100%;
+    }
+    .models-car div div button{
+        width: 80px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: #0091DA;
+        border: unset;
+        border-radius: 4px;
+    }
+    .models-car div:nth-of-type(5) diV:nth-of-type(2){
+        display: flex;
+        gap: 15PX;
+    }
+    .models-car div:nth-of-type(5) diV:nth-of-type(2) button:nth-of-type(2){
+        width: 100PX;
+    }
+    .models-car div:nth-of-type(4) diV:nth-of-type(2) button{
+        background-color: white;
+        border: 1px solid #0091DA;
+    }
+    .models-car div:nth-of-type(4) diV:nth-of-type(2) button h4{
+        color: #0091DA;
+    }
+    .models-car div:nth-of-type(7) diV:nth-of-type(2) button{
+        background-color: white;
+        border: 1px solid #0091DA;
+    }
+    .models-car div:nth-of-type(7) diV:nth-of-type(2) button h4{
+        color: #0091DA;
+    }
+    .models-car div div:nth-of-type(2) button img{
+        width: 14px;
+        height: 14px;
+    }
+    .models-car div div:nth-of-type(2) button h4{
+        color: white;
+    }
+    .models-car div diV:nth-of-type(6) a{
+        color: black;
+        text-decoration: underline yellow solid 2px;
+    }
+    .models-car div diV:nth-of-type(6) a:hover{
+        text-decoration: underline rgb(13, 13, 13) solid 2px;
+    }
+    .models-compare{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .models-compare button{
+        width: 150px;
+        height: 45px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: unset;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .models-compare button:hover{
+        color: black;
+        background-color: #efdf00;
+        transition: all linear 350ms;
+    }
+    .models-all{
+        width: 100%;
+        height: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .models-all button{
+        width: 120px;
+        height: 40px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: unset;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .models-all button:hover{
+        color: black;
+        background-color: #efdf00;
+        transition: all 350ms;
+    }
+    .models-all button:nth-of-type(2){
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+    }
+    .models-all button:nth-of-type(2):hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        transition: all 350ms;
+    }
+    
+    .discover-Renault{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .discover-Renault-main{
+        width: 42%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .discover-Renault-main h3{
+        font-size: 20px;
+        color: #65666A;
+    }
+    .discover-Renault-main p{
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+    /* discover-Renault2 */
+    .discover-Renault2{
+        width: 100%;
+        height: 290px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .discover-Renault2-main{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .discover-Renault2-main div{
+        width: 32%;
+        height: 230px;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    .discover-Renault2-main div img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s ease;
+    }
+    .discover-Renault2-main div:hover img{
+        transform: scale(1.2);
+    }
+    .discover-Renault2-main div div{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.25);
+        position: absolute;
+        top: 0;
+    }
+    .discover-Renault2-main div div.drive-electric{
+        width: 100%;
+        height: 60px;
+        margin-top: 170px;
+        background-color: unset;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    }
+    .discover-Renault2-main div div.drive-electric span{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        left: 10px;
+    }
+    .discover-Renault2-main div div.drive-electric svg{
+        position: absolute;
+        right: 10px;
+    }
+    .card2{
+        height: 350px;
+    }
+    .cards2 .c1 div:nth-of-type(2){
+        height: 15%;
+    }
+    
+    .news{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .news-main{
+        width: 25%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .news-main h3{
+        font-size: 20px;
+        color: #65666A;
+    }
+    .news-main p{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    
+    .c2 a div:nth-of-type(3){
+        color: rgb(0, 0, 0);
+    }
+    .c2:nth-of-type(1) a div:nth-of-type(4){
+        color: rgb(0, 0, 0);
+        height: 10%;
+        display: flex;
+        align-items: center;
+    }
+    .c2:nth-of-type(3) a div:nth-of-type(2){
+        height:35%;
+    }
+    .c2 a div:nth-of-type(2){
+        position: relative;
+    }
+    .c2:nth-of-type(1) a div:nth-of-type(3){
+        position: relative;
+        height: 25%;
+    }
+    .c2:nth-of-type(1) a div:nth-of-type(2){
+        height: 10%;
+    }
+    .c2 a div:nth-of-type(1){
+        height: 55%;
+    }
+    .c2 a div:nth-of-type(2) p{
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .c2:nth-of-type(1) a div:nth-of-type(3) p{
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .c2 a div:nth-of-type(2) h4{
+        color: rgb(124, 124, 124);
+        font-size: 18px;
+    }
+    .c2 a div:nth-of-type(2) p::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background-color: #efdf00;
+    }
+    .c2 a div:nth-of-type(3) p::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50px;
+        height: 3px;
+        background-color: #efdf00;
+    }
+    .card3{
+        height: 530px;
+    }
+    
+    .all-news{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .all-news-main{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .all-news-main button{
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        border: unset;
+    }
+    .all-news-main button:hover{
+        background-color: #efdf00;
+        color: rgb(0, 0, 0);
+        transition: all linear 350ms;
+    }
+    
+    
+    .long-text{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .long-text-main{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .long-text-main p{
+        font-size: 13.5px;
+    }
+    
+    .help2{
+        width: 100%;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .help2-main{
+        width: 85%;
+        height: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .help2-main div{
+        width: 11%;
+        height: 100%;
+    }
+    .help2-main div a{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .help2-main div a div:nth-of-type(1){
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .help2-main div a div:nth-of-type(2){
+        width: 100%;
+        height: 50%;
+    }
+    .help2-main div svg{
+        width: 50px;
+        height: 50px;
+    }
+    .help2-main div p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    /* tools */
+    
+    .tools{
+        width: 100%;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba(112, 112, 112, 0.4);
+    }
+    .tools-main{
+        width: 98%;
+        height: 80%;
+        display: flex;
+    }
+    .tools-main div{
+        width: 25%;
+        height: 100%;
+    }
+    .tools-main div ul{
+        width: 100%;
+        height: 100%;
+        list-style: none;
+    }
+    .tools-main div ul li{
+        width: 100%;
+        height: 16%;
+        display: flex;
+    }
+    .tools-main div ul li a{
+        display: flex;
+        align-items: end;
+        color: black;
+        font-size: 13px;
+    }
+    .tools-main div ul li:nth-of-type(1) a{
+        display: flex;
+        align-items: start;
+        font-weight: bold;
+    }
+    .tools-main div:nth-of-type(4) ul:nth-of-type(1){
+        width: 100%;
+        height: 20%;
+    }
+    .tools-main div:nth-of-type(4) ul:nth-of-type(2){
+        width: 60%;
+        height: 20%;
+        display: flex;
+    }
+    .tools-main div:nth-of-type(4) ul:nth-of-type(2) li{
+        width: 25%;
+        height: 100%;
+    }
+    .tools-main div:nth-of-type(4) ul:nth-of-type(2) li img:hover{
+        transform: scale(1.2);
+        transition: transform 0.3s ease;
+    }
+    
+    /* cookies */
+    
+    .cookies{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .cookies-main{
+        width: 99%;
+        height: 50px;
+        display: flex;
+    }
+    .cookies-main div:nth-of-type(1){
+        width: 50%;
+        height: 100%;
+    }
+    .cookies-main div:nth-of-type(1) ul{
+        width: 70%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .cookies-main div:nth-of-type(1) ul li a{
+        color: black;
+        font-size: 13px;
+    }
+    .cookies-main div:nth-of-type(1) ul li{
+        position: relative;
+    }
+    .cookies-main div:nth-of-type(1) ul li:not(:last-child) a::after{
+        content: "";
+        position: absolute;
+        right: -10px;
+        top: 5px;
+        width: 1px;
+        height: 12px;
+        background-color: black;
+    }
+    .cookies-main div:nth-of-type(2){
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .cookies-main div:nth-of-type(2) p{
+        font-size: 13px;
+        font-weight: bolder;
+    }
+}

@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renault-project</title>
+    <link rel="shortcut icon" href="./images/renault.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <a href="#">Renault Cars</a>
+                <a href="#">Renault Business</a>
+            </div>
+        </div>
+        <div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 86" class="MainHeader__logo"><path d="m52.3 43-23 43H23L0 43 22.9 0h6.5L6.5 43l19.6 36.9L45.7 43 34.3 21.5l3.3-6.1L52.3 43zM42.5 0h-6.6L13.1 43l14.7 27.6 3.2-6.1L19.6 43 39.2 6l19.6 37-22.9 43h6.6l22.8-43L42.5 0z"></path></svg>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">VEHICLES</a></li>
+                    <li><a href="#">USED</a></li>
+                    <li><a href="#">OFFERS & FINANCE</a></li>
+                    <li><a href="#">DRIVE ELECTRIC</a></li>
+                    <li><a href="#">OWNERS</a></li>
+                    <li><a href="#">DISCOVER RENAULT</a></li>
+                </ul>
+            </div>
+            <div>
+                <div>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="SearchLink__iconSvg"><path fill-rule="evenodd" d="M13.07 6.26c-3.69 0-6.81 2.73-6.81 6.691 0 4.02 3.15 7.05 6.93 7.05 3.721 0 6.811-2.76 6.811-6.69 0-4.05-3.12-7.05-6.93-7.05m8.19 7.02c0 2.01-.69 3.75-1.83 5.13l5.85 5.851-.87.9-5.88-5.88c-1.44 1.26-3.33 1.98-5.37 1.98C8.72 21.262 5 17.66 5 12.98 5 8.361 8.72 5 13.1 5c4.53 0 8.16 3.511 8.16 8.281"></path></svg>
+                        <h5>search</h5>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HeaderButtons__iconSvg"><path fill-rule="evenodd" d="M14.995 10.606c-1.08 0-1.83.81-1.83 1.95s.75 1.92 1.83 1.92c1.11 0 1.89-.78 1.89-1.92s-.78-1.95-1.89-1.95m0-1.201c1.86 0 3.15 1.29 3.15 3.15 0 1.83-1.29 3.12-3.15 3.12-1.8 0-3.09-1.29-3.09-3.12 0-1.86 1.29-3.15 3.09-3.15m.03 13.981c3.93-4.5 5.55-7.77 5.55-10.92 0-3.21-2.1-5.611-5.55-5.611-3.45 0-5.55 2.4-5.55 5.61 0 3.151 1.62 6.421 5.55 10.921m6.9-10.92c0 3.75-2.16 7.65-6.33 11.94h-1.17c-4.14-4.29-6.3-8.19-6.3-11.94 0-4.231 2.73-6.841 6.9-6.841s6.9 2.61 6.9 6.84"></path></svg>
+                        <h5>find a retailer</h5>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HeaderButtons__iconSvg"><path fill-rule="evenodd" d="M22.686 17.65c0-.75-.54-1.41-1.35-1.41s-1.35.66-1.35 1.41c0 .78.54 1.38 1.35 1.38s1.35-.6 1.35-1.38m-13.68 0c0-.75-.54-1.41-1.35-1.41s-1.35.66-1.35 1.41c0 .78.54 1.38 1.35 1.38s1.35-.6 1.35-1.38m1.23-.15h8.52c.09-1.41 1.26-2.49 2.58-2.49 1.38 0 2.58 1.17 2.58 2.49h1.05v-.21c0-.51-.09-1.11-.239-1.53l-.15-.42c-.24-.63-.63-.96-1.65-1.2l-1.5-.33c-.45-.09-.93-.3-1.29-.51-.69-.42-1.56-1.05-3.151-1.56-1.2-.39-3.63-.48-5.76-.48-1.29 0-2.76.09-4.14.18l-1.5-.81v-.36c1.2-.09 4.23-.27 5.97-.27 1.95 0 4.65.12 5.97.57 1.56.54 2.55 1.26 3.12 1.56.24.12.54.3.9.39l1.5.36c.99.24 1.771.51 2.191 1.05.6.78 1.02 2.07 1.02 2.91 0 1.47-.42 1.92-1.53 1.92h-1.02c-.45 1.02-1.47 1.531-2.37 1.531-.9 0-1.92-.51-2.37-1.53h-8.941c-.45 1.02-1.47 1.53-2.37 1.53-1.02 0-2.19-.66-2.49-1.95-1.38-.06-2.04-.51-2.04-2.16V13.6c.51-.72 1.23-1.5 1.98-2.22l1.14.63c-.69.66-1.29 1.26-1.89 2.01v2.25c0 .63.24.78.78.78.27-1.17 1.35-2.04 2.52-2.04 1.38 0 2.58 1.17 2.58 2.49"></path></svg>
+                        <h5>value your car</h5>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HeaderButtons__iconSvg"><path fill-rule="evenodd" d="M16.02 14.99c-1.44-.93-2.25-2.52-2.25-4.47C13.77 7.1 16.14 5 20.012 5c3.84 0 6.24 2.1 6.24 5.52 0 3.51-2.4 5.67-6.24 5.67-.42 0-.75-.03-1.56-.12-1.05 1.02-1.65 1.53-2.25 2.01l-.81-.96c1.08-.84 1.89-1.56 2.64-2.37.9.18 1.35.24 1.98.24 3.15 0 5.01-1.65 5.01-4.47 0-2.73-1.89-4.32-5.01-4.32-3.18 0-5.01 1.59-5.01 4.32 0 1.56.63 2.76 1.86 3.54-.18.33-.39.57-.84.93zm-4.41.87c0-1.35-.81-2.19-2.25-2.19s-2.25.84-2.25 2.19c0 1.47.81 2.31 2.25 2.31s2.25-.84 2.25-2.31zm-6.63 9.121H3.75v-.63c0-3.21 1.14-5.101 3.48-5.82-.87-.57-1.32-1.5-1.32-2.67 0-2.071 1.32-3.39 3.45-3.39s3.45 1.319 3.45 3.39c0 1.14-.45 2.1-1.29 2.67 2.34.719 3.48 2.61 3.48 5.82v.63h-1.23v-.63c0-3.36-1.41-4.98-4.41-4.98-2.94 0-4.38 1.65-4.38 4.98v.63z"></path></svg>
+                        <h5>contact us</h5>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HeaderButtons__iconSvg"><path fill-rule="evenodd" d="M18.06 10.6c0-2.01-1.08-3.15-3.06-3.15-1.95 0-3.06 1.14-3.06 3.15 0 1.98 1.11 3.09 3.06 3.09s3.06-1.14 3.06-3.09m-7.35 0c0-2.73 1.59-4.35 4.29-4.35s4.29 1.65 4.29 4.35c0 1.86-.81 3.21-2.22 3.87v-.39c3.54.66 5.43 3.121 5.43 7.321v2.4h-1.229v-2.34c0-4.17-2.22-6.39-6.27-6.39-4.021 0-6.272 2.25-6.272 6.39v2.34H7.5v-2.4c0-4.17 1.92-6.66 5.43-7.32v.39c-1.41-.66-2.22-2.01-2.22-3.871"></path></svg>
+                        <h5>My Renault</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="s-slide1">
+                    <h1>RENAULT SCENIC</h1>
+                    <h1>E-TECH 100% ELECTRIC</h1>
+                    <h3>orders now open</h3>
+                    <button><a href="#">discover</a></button>
+                </div>
+                <img src="./images/8e78d9ffee.webp" alt="">
+            </div>
+            <div class="swiper-slide">
+                <div class="s-slide1">
+                    <h1>RENAULT 5</h1>
+                    <h1>IS BACK</h1>
+                    <h3>Renault 5 E-Tech 100% electric</h3>
+                    <button><a href="#">discover</a></button>
+                </div>
+                <img src="./images/b8a4c0acb8.webp" alt="">
+            </div>
+            <div class="swiper-slide">
+                <div class="s-slide1 s-slide3">
+                    <h4>Scenic E-Tech 100% electric</h4>
+                    <h1>smart device</h1>
+                    <h3>renault. rethink.</h3>
+                    <button><a href="#">discover more</a></button>
+                </div>
+                <img src="./images/ec2accc7d6.webp" alt="">
+            </div>
+            <div class="swiper-slide">
+                <div class="s-slide1">
+                    <h1>RENAULT AUSTRAL</h1>
+                    <h1>E-TECH FULL HYBRID</h1>
+                    <h3>rethink hybrid, we did</h3>
+                    <button><a href="#">discover</a></button>
+                </div>
+                <img src="./images/ff0d6c863d.webp" alt="">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="help">
+        <div class="help-main">
+            <div>
+                <h2>how can we help you?</h2>
+            </div>
+            <div>
+                <div><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HorizontalCtaBar__iconSvg"><path fill-rule="evenodd" d="M22.82 24.427c0-.66-.39-1.71-1.261-3.6-.87 1.8-1.26 2.91-1.26 3.6 0 .9.6 1.29 1.26 1.29s1.26-.36 1.26-1.29zm-3.751.09c0-.96.72-2.88 1.95-5.13h1.08c1.2 2.34 1.95 4.2 1.95 5.13 0 1.32-1.17 2.37-2.49 2.37-1.35 0-2.49-1.05-2.49-2.37zm-5.52-13.681c-.75 0-1.17.42-1.17 1.2 0 .75.42 1.14 1.17 1.14.78 0 1.17-.39 1.17-1.14 0-.78-.39-1.2-1.17-1.2zm0 3.54c-1.29 0-2.37-1.05-2.37-2.34 0-1.05.69-1.92 1.65-2.22V3.125h1.23v6.63c1.08.21 1.86 1.14 1.86 2.28a2.35 2.35 0 0 1-2.37 2.341zm1.74-8.13 2.49-.99 4.26 11.28-.93.63h-4.02l-3.66 1.38c-3.3 1.32-5.19.39-6.481-3.18l-.15-.39c-1.26-3.3-.36-5.28 2.82-6.6l1.95-.81v1.32l-1.53.63c-2.49 1.02-3.03 2.34-2.1 5.07l.15.42c.93 2.73 2.4 3.45 4.98 2.4l3.63-1.41h3.9l-3.48-9.18-1.83.72v-1.29z"></path></svg>
+                    <h4>build your Renault</h4>
+                </a></div>
+                <div><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HorizontalCtaBar__iconSvg"><path fill-rule="evenodd" d="M16.02 14.99c-1.44-.93-2.25-2.52-2.25-4.47C13.77 7.1 16.14 5 20.012 5c3.84 0 6.24 2.1 6.24 5.52 0 3.51-2.4 5.67-6.24 5.67-.42 0-.75-.03-1.56-.12-1.05 1.02-1.65 1.53-2.25 2.01l-.81-.96c1.08-.84 1.89-1.56 2.64-2.37.9.18 1.35.24 1.98.24 3.15 0 5.01-1.65 5.01-4.47 0-2.73-1.89-4.32-5.01-4.32-3.18 0-5.01 1.59-5.01 4.32 0 1.56.63 2.76 1.86 3.54-.18.33-.39.57-.84.93zm-4.41.87c0-1.35-.81-2.19-2.25-2.19s-2.25.84-2.25 2.19c0 1.47.81 2.31 2.25 2.31s2.25-.84 2.25-2.31zm-6.63 9.121H3.75v-.63c0-3.21 1.14-5.101 3.48-5.82-.87-.57-1.32-1.5-1.32-2.67 0-2.071 1.32-3.39 3.45-3.39s3.45 1.319 3.45 3.39c0 1.14-.45 2.1-1.29 2.67 2.34.719 3.48 2.61 3.48 5.82v.63h-1.23v-.63c0-3.36-1.41-4.98-4.41-4.98-2.94 0-4.38 1.65-4.38 4.98v.63z"></path></svg>
+                    <h4>view offers</h4>
+                </a></div>
+                <div><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HorizontalCtaBar__iconSvg"><path fill-rule="evenodd" d="M14.995 10.606c-1.08 0-1.83.81-1.83 1.95s.75 1.92 1.83 1.92c1.11 0 1.89-.78 1.89-1.92s-.78-1.95-1.89-1.95m0-1.201c1.86 0 3.15 1.29 3.15 3.15 0 1.83-1.29 3.12-3.15 3.12-1.8 0-3.09-1.29-3.09-3.12 0-1.86 1.29-3.15 3.09-3.15m.03 13.981c3.93-4.5 5.55-7.77 5.55-10.92 0-3.21-2.1-5.611-5.55-5.611-3.45 0-5.55 2.4-5.55 5.61 0 3.151 1.62 6.421 5.55 10.921m6.9-10.92c0 3.75-2.16 7.65-6.33 11.94h-1.17c-4.14-4.29-6.3-8.19-6.3-11.94 0-4.231 2.73-6.841 6.9-6.841s6.9 2.61 6.9 6.84"></path></svg>
+                    <h4>find a dealer</h4>
+                </a></div>
+                <div><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HorizontalCtaBar__iconSvg"><path fill-rule="evenodd" d="M16.71 22.231c2.94-.66 4.561-2.1 5.43-4.86h-2.429a5.739 5.739 0 0 1-3 2.34v2.52zm-5.82-7.02c0 1.86 1.95 3.57 4.11 3.57s4.111-1.68 4.111-3.57c0-1.74-1.53-2.82-4.11-2.82-2.55 0-4.11 1.11-4.11 2.82zm2.4 7.05v-2.55a5.736 5.736 0 0 1-3-2.34H7.83c.87 2.76 2.49 4.23 5.46 4.89zm6.781-8.49h2.37c-.57-4.35-3.39-6.33-7.44-6.33-4.08 0-6.84 2.01-7.41 6.36H9.9c.66-1.62 2.46-2.61 5.1-2.61 2.61 0 4.44.96 5.07 2.58zm-4.53 9.78v-3.6c-.18.03-.36.03-.54.03-.18 0-.36 0-.54-.03v3.6c-4.59-.21-7.651-3.03-8.01-7.35h3.33c-.06-.33-.12-.66-.12-.99v-.27H6.39c0-5.31 3.36-8.7 8.61-8.7s8.611 3.39 8.611 8.7h-3.27v.27c0 .33-.03.66-.12.99h3.33c-.36 4.32-3.42 7.14-8.01 7.35zm-.54 1.41c6.09 0 10.02-3.9 10.02-9.99 0-6.12-3.87-9.991-10.02-9.991-6.12 0-10.021 3.9-10.021 9.99 0 6.061 3.93 9.991 10.02 9.991zm0 1.23c-6.84 0-11.25-4.44-11.25-11.22C3.75 8.16 8.13 3.75 15 3.75s11.251 4.38 11.251 11.22c0 6.81-4.41 11.22-11.251 11.22z"></path></svg>
+                    <h4>book test drive</h4>
+                </a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="journey">
+        <div class="journey-main">
+            <h1>guiding you on your journey</h1>
+            <p>At Renault, we are committed to supporting our customers on their journey, whether it’s online, in store or on the road. If you’re embarking on a new Renault journey, why not try out our innovative online tools to help you on your way.</p>
+        </div>
+    </div>
+
+    <div class="cards1">
+        <div class="cards1-main">
+            <div class="c1"><a href="#">
+                <div>
+                    <img src="/images/e2111a79c7 (1).webp" alt="">
+                </div>
+                <div>
+                    <h4>subscription is the all-inclusive new way of driving</h4>
+                </div>
+                <div>
+                    <h5>subscribe now</h5>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </a></div>
+            <div class="c1"><a href="#">
+                <div>
+                    <img src="./images/809556d0e0 (1).webp" alt="">
+                </div>
+                <div>
+                    <h4>unsure if an electric or hybrid vehicle would suit your lifestyle?</h4>
+                </div>
+                <div>
+                    <h5>help me choose</h5>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </a></div>
+            <div class="c1"><a href="#">
+                <div>
+                    <img src="./images/0ab3b7c6a6.webp" alt="">
+                </div>
+                <div>
+                    <h4>simulate your electric driving range and recharging costs</h4>
+                </div>
+                <div>
+                    <h5>estimate your savings </h5>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </a></div>
+        </div>
+    </div>
+
+    <div class="search">
+        <div class="search-main">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="NCIHelpMeChoose__svgIcon"><path fill-rule="evenodd" d="M29.386 36.41c0-.768-.576-1.44-1.44-1.44-.768 0-1.344.672-1.344 1.44 0 .816.576 1.44 1.344 1.44.864 0 1.44-.624 1.44-1.44zm9.553-21.218-3.361-.719c-1.104-.24-2.927-1.873-4.992-2.689-1.584-.624-3.024-.864-6.337-.864-1.727 0-3.84.192-5.712.431l-1.824-1.055-.048-.48c.048 0 4.704-.816 7.872-.816 3.073 0 4.993.384 6.769 1.056 2.256.816 3.936 2.4 4.608 2.544l3.36.768c1.344.288 2.257 1.056 2.689 1.776.672 1.153 1.056 3.168 1.056 3.937 0 1.727-1.488 2.592-3.456 2.592h-.193c-.575-.865-1.2-1.392-2.448-1.872h2.833c1.056 0 1.392-.193 1.392-1.008 0-.673-.48-2.209-.768-2.64-.288-.432-.624-.768-1.44-.96zm-25.922.481c0-1.009.384-1.825 2.35-3.793l1.585.816c-1.391 1.488-1.872 2.065-2.015 2.69l-1.92.287zm21.937 7.44-3.36-.72c-1.104-.24-2.928-1.873-4.992-2.688-1.584-.624-3.025-.864-6.337-.864-1.728 0-3.84.191-5.712.431l-1.824-1.055-.048-.48c.048 0 4.704-.816 7.872-.816 3.072 0 4.992.384 6.769 1.055 2.256.817 3.936 2.401 4.608 2.544l3.36.77c1.344.287 2.256 1.055 2.689 1.775.672 1.152 1.055 3.168 1.055 3.936 0 1.728-1.488 2.593-3.456 2.593h-.192c-.575-.865-1.2-1.393-2.448-1.872h2.833c1.055 0 1.39-.193 1.39-1.009 0-.672-.478-2.208-.766-2.64-.288-.433-.624-.768-1.441-.96zM13.4 36.41c0-.768-.577-1.44-1.441-1.44-.767 0-1.344.672-1.344 1.44 0 .816.577 1.44 1.344 1.44.864 0 1.44-.624 1.44-1.44zM9.03 23.593c0-1.008.385-1.825 2.353-3.792l1.584.816c-1.392 1.487-1.872 2.064-2.016 2.688l-1.92.288zm-.047 11.81c.432-1.297 1.632-2.209 2.976-2.209 1.393 0 2.593.912 3.025 2.208h9.985c.432-1.296 1.632-2.208 2.976-2.208 1.392 0 2.592.912 3.024 2.208h.769c1.055 0 1.295-.192 1.295-1.009 0-.67-.432-2.015-.72-2.448-.287-.43-.672-.767-1.488-.96l-3.36-.863c-1.248-.337-2.881-1.873-4.944-2.689-1.585-.624-3.025-.864-6.29-.864-1.728 0-3.84.193-5.711.432l-1.824-1.104-.05-.48c.05 0 4.706-.816 7.874-.816 3.217 0 5.04.336 6.816 1.008 2.257.864 3.6 2.353 4.56 2.64l3.265.912c1.489.433 2.4 1.057 2.832 1.776.672 1.153 1.008 3.025 1.008 3.793 0 1.728-1.488 2.64-3.456 2.64h-.576c-.384 1.536-1.73 2.305-3.024 2.305-1.201 0-2.592-.769-2.976-2.305h-9.985c-.384 1.536-1.73 2.305-3.025 2.305-1.2 0-2.592-.817-3.024-2.353H8.84c-1.872 0-3.84-1.152-3.84-3.6v-2.4c0-1.009.287-1.92 2.256-3.889l1.68.913c-1.728 1.872-2.064 2.255-2.064 3.215v1.97c0 1.2.577 1.871 1.968 1.871h.144z"></path></svg>
+                <h2>what’s in stock today?</h2>
+            </div>
+            <div>
+                <p>Find and order your new Renault online from a wide selection of vehicles available now</p>
+                <select name="Models" id="Models">
+                    <option slot="1" hidden>MODELS</option>
+                    <option value="CAPTUR">CAPTUR</option>
+                    <option value="MEGANE E-TECH 100% ELECTRIC">MEGANE E-TECH 100% ELECTRIC</option>
+                    <option value="NEW ARKANA MY24">NEW ARKANA MY24</option>
+                    <option value="NEW AUSTRAL">NEW AUSTRAL</option>
+                    <option value="NEW CLIO MY24">NEW CLIO MY24</option>
+                    <option value="ZOE">ZOE</option>
+                </select>
+                <input type="search" placeholder="postcode,town/city">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="m14.334 0 .16.001.178-.001c.076 0 .151.005.156.01 2.244.09 4.21.797 5.868 2.11 2.208 1.678 3.31 4.214 3.31 7.544 0 3.335-3.052 8.872-9.151 16.759l-.531.686-.518-.696C7.936 18.53 5 12.993 5 9.663 5 6.335 6.102 3.799 8.3 2.13 9.842.906 11.64.209 13.675.04l.659-.04zm.019 1.321c-2.022.058-3.76.67-5.246 1.848-1.859 1.412-2.79 3.555-2.79 6.495 0 2.85 2.674 7.98 8.027 15.263 5.565-7.286 8.345-12.418 8.345-15.263 0-2.94-.93-5.083-2.8-6.503-1.446-1.146-3.144-1.757-5.182-1.842-.115-.002-.115-.002-.213-.001l-.141.003zm-.02 12.515c-2.395 0-4.337-1.898-4.337-4.238 0-2.34 1.942-4.238 4.338-4.238 2.395 0 4.337 1.897 4.337 4.238 0 2.34-1.942 4.238-4.337 4.238zm0-1.317c1.676 0 3.022-1.315 3.022-2.921 0-1.606-1.346-2.921-3.021-2.921-1.675 0-3.021 1.315-3.021 2.92 0 1.607 1.346 2.922 3.02 2.922zm-3.658 11.65.238 1.296c-1.582.29-2.249.74-2.249 1.23 0 .558.64 1.134 2.077 1.65.678.22 1.862.338 3.524.338 1.657 0 2.81-.117 3.442-.339 1.541-.491 2.217-1.066 2.217-1.649 0-.523-.618-.932-2.134-1.14l.178-1.304c2.088.285 3.273 1.07 3.273 2.444 0 1.315-1.108 2.257-3.115 2.898-.79.278-2.065.407-3.86.407-1.79 0-3.091-.13-3.95-.409-1.921-.69-2.969-1.632-2.969-2.896 0-1.33 1.192-2.133 3.328-2.525z"></path></svg>
+                </div>
+                <button><a href="#">search</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-vehicles">
+        <div class="our-vehicles-main">
+            <h1>our vehicles</h1>
+            <p>which Renault model takes your fancy?</p>
+        </div>
+    </div>
+
+    <div class="models">
+        <div class="models-main">
+            <div class="models-list">
+                <ul>
+                    <li><a href="#">Renault Cars</a></li>
+                    <li><a href="#">Electric Cars</a></li>
+                    <li><a href="#">Hybrid Cars</a></li>
+                    <li><a href="#">Renault Pro+ Vans</a></li>
+                </ul>
+            </div>
+            <div class="models-filter">
+                <div class="fil">
+                    <h5>filter by</h5>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23.245 4l-11.245 14.374-11.219-14.374-.781.619 12 15.381 12-15.391-.755-.609z"/></svg>
+                </div>
+            </div>
+            <div class="models-filter2">
+                <div>
+                    <div class="car-t">
+                        <h3>Car Types</h3>
+                        <div class="checks">
+                            <div>
+                                <input type="checkbox">electric cars
+                            </div>
+                            <div>
+                                <input type="checkbox">SUV
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-m">
+                        <div class="price-m-main">
+                            <h3>Max Price</h3>
+                            <input type="range">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="models-car">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img src="https://www.renault.co.uk/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fuk.co.rplug.renault.com%2Fproduct%2Fmodel%2FZOE%3Bck%3DVP%2Fzoe%2Fc%2FA-ENS_0MDL2P1NIVEQPT7_-TEGNE" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <button>
+                            <h4>electric</h4>
+                            <img src="./image2/icons8-forward-50.png" alt="">
+                        </button>
+                    </div>
+                    <div>
+                        <h3>ZOE</h3>
+                    </div>
+                    <div>
+                        <p>starting from £31,195 *</p>
+                    </div>
+                    <div>
+                        <p>ZOE Techno R135  EV 50 Boost Charge MY22.5 *MRRP excluding metallic paint. Stock units only available,<br> version and colour limitations apply.</p>
+                    </div>
+                    <div>
+                        <a href="#">discover</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="#">
+                            <img src="https://www.renault.co.uk/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fuk.co.rplug.renault.com%2Fproduct%2Fmodel%2FCL5%2Fclio%2Fc%2FA-ENS_0MDL2PSL1SERIESPE2_-TEKQG" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <button>
+                            <h4>full hybrid</h4>
+                            <img src="./image2/icons8-forward-50.png" alt="">
+                        </button>
+                    </div>
+                    <div>
+                        <h3>NEW CLIO</h3>
+                    </div>
+                    <div>
+                        <p>starting from £17,795 *</p>
+                    </div>
+                    <div>
+                        <p>NEW CLIO evolution TCe 90 [MY24] <br>*MRRP excluding metallic paint.</p>
+                    </div>
+                    <div>
+                        <a href="#">discover</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="#">
+                            <img src="https://www.renault.co.uk/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fuk.co.rplug.renault.com%2Fproduct%2Fmodel%2FZO1%2Fmegane-e-tech-100-electric%2Fc%2FA-ENS_0MDL2P1SERIESPE1_-BIYUY" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <button>
+                            <h4>electric</h4>
+                            <img src="./image2/icons8-forward-50.png" alt="">
+                        </button>
+                    </div>
+                    <div>
+                        <h3>MEGANE E-Tech 100% electric</h3>
+                    </div>
+                    <div>
+                        <p>starting from £34,495 *</p>
+                    </div>
+                    <div>
+                        <p>MEGANE E-Tech 100% electric equilibre EV60 220hp optimum charge
+                            <br>*MRRP excluding metallic paint</p>
+                    </div>
+                    <div>
+                        <a href="#">discover</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="#">
+                            <img src="https://www.renault.co.uk/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fuk.co.rplug.renault.com%2Fproduct%2Fmodel%2FZH1%2Fscenic-e-tech-100-electric%2Fc%2FA-ENS_0MDL2P1SERIELIM4_-TEQNC" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <button>
+                            <h4>electric</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <h3>SCENIC</h3>
+                    </div>
+                    <div>
+                        <p>starting from £37,495 *</p>
+                    </div>
+                    <div>
+                        <p>SCENIC techno 170 hp comfort range
+                            <br>*MRRP excluding metallic paint</p>
+                    </div>
+                    <div>
+                        <a href="#">discover</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="#">
+                            <img src="https://www.renault.co.uk/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fuk.co.rplug.renault.com%2Fproduct%2Fmodel%2FCP1%2Fcaptur%2Fc%2FA-ENS_0MDL2P1NIVEQPT11_-TEKNG" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <button>
+                            <h4>full hybrid</h4>
+                            <img src="./image2/icons8-forward-50.png" alt="">
+                        </button>
+                        <button>
+                            <h4>plug-in hybrid</h4>
+                            <img src="./image2/icons8-forward-50.png" alt="">
+                        </button>
+                    </div>
+                    <div>
+                        <h3>CAPTUR</h3>
+                    </div>
+                    <div>
+                        <p>starting from £21,495 *</p>
+                    </div>
+                    <div>
+                        <p>CAPTUR Evolution TCe 90 MY22
+                            *Captur evolution and techno MRRP excluding metallic paint. Captur E-Tech engineered MRRP stated includes the cost of the optional metallic paint, to view the MRRP with the included paint colour please view the configurator.</p>
+                    </div>
+                    <div>
+                        <a href="#">discover</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="#">
+                            <img src="https://www.renault.co.uk/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fuk.co.rplug.renault.com%2Fproduct%2Fmodel%2FJL1%2Fnew-arkana-my24%2Fc%2FA-ENS_0MDL2PSL1SERIELIM3_-TEQXD" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <button>
+                            <h4>full hybrid</h4>
+                            <img src="./image2/icons8-forward-50.png" alt="">
+                        </button>
+                    </div>
+                    <div>
+                        <h3>NEW ARKANA</h3>
+                    </div>
+                    <div>
+                        <p>starting from £26,995 *</p>
+                    </div>
+                    <div>
+                        <p>NEW ARKANA evolution E-Tech full hybrid 145 MY24
+                            <br>*MRRP excluding metallic paint.</p>
+                    </div>
+                    <div>
+                        <a href="#">discover</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="#">
+                            <img src="https://www.renault.co.uk/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=hhttps%3A%2F%2Fuk.co.rplug.renault.com%2Fproduct%2Fmodel%2FHN1%2Fnew-austral%2Fc%2FA-ENS_0MDL2P1SERIELIM3_-BIYVM" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <button>
+                            <h4>full hybrid</h4>
+                        </button>
+                    </div>
+                    <div>
+                        <h3>AUSTRAL</h3>
+                    </div>
+                    <div>
+                        <p>starting from £34,695 *</p>
+                    </div>
+                    <div>
+                        <p>AUSTRAL techno E-Tech full hybrid 200hp MY24
+                            *MRRP excluding metallic paint.</p>
+                    </div>
+                    <div>
+                        <a href="#">discover</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="#">
+                            <img src="https://www.renault.co.uk/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fuk.co.rplug.renault.com%2Fproduct%2Fmodel%2FTRP%2Fnew-trafic-passenger%2Fc%2FA-ENS_0MDL3P4X41NIVEQPT5_-TEKQA" alt="">
+                        </a>
+                    </div>
+                    <div></div>
+                    <div>
+                        <h3>TRAFIC PASSENGER</h3>
+                    </div>
+                    <div>
+                        <p>starting from £45,955 *</p>
+                    </div>
+                    <div>
+                        <p>TRAFIC PASSENGER SL28 Blue dCi 110 Advance MY23.5
+                            *MRRP excluding metallic paint.</p>
+                    </div>
+                    <div>
+                        <a href="#">discover</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="models-compare">
+                <button>compare models</button>
+            </div>
+            <div class="models-all">
+                <button>all vehicles</button>
+                <button>future models</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="discover-Renault">
+        <div class="discover-Renault-main">
+            <h3>discover Renault</h3>
+            <p>it all starts with a passion for life</p>
+        </div>
+    </div>
+
+    <div class="discover-Renault2">
+        <div class="discover-Renault2-main">
+            <div>
+                <img src="./image2/667e873eeb.webp" alt="">
+                <div class="bg-b"></div>
+                <div class="drive-electric">
+                    <span>drive electric</span>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </div>
+            <div>
+                <img src="./image2/911b3efa3d.webp" alt="">
+                <div class="bg-b"></div>
+                <div class="drive-electric">
+                    <span>openR link</span>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </div>
+            <div>
+                <img src="./image2/811d88a316.webp" alt="">
+                <div class="bg-b"></div>
+                <div class="drive-electric">
+                    <span>My Renault</span>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="discover-Renault">
+        <div class="discover-Renault-main">
+            <h3>services</h3>
+            <p>putting you and your car's needs first.</p>
+        </div>
+    </div>
+
+    <div class="cards1 cards2">
+        <div class="cards1-main">
+            <div class="c1"><a href="#">
+                <div>
+                    <img src="./image2/2ea69bde07.webp" alt="">
+                </div>
+                <div>
+                    <h4>Renault warranty</h4>
+                </div>
+                <div>
+                    <h5>discover more</h5>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </a></div>
+            <div class="c1"><a href="#">
+                <div>
+                    <img src="./image2/d5b3d74495.webp" alt="">
+                </div>
+                <div>
+                    <h4>service plans from £17.99 per month^<h4>
+                </div>
+                <div>
+                    <h5>discover</h5>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </a></div>
+            <div class="c1"><a href="#">
+                <div>
+                    <img src="./image2/a4089f1653.webp" alt="">
+                </div>
+                <div>
+                    <h4>discover the future models from Renault</h4>
+                </div>
+                <div>
+                    <h5>future models</h5>
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" style="fill: rgb(218, 218, 19);"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
+                </div>
+            </a></div>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="news-main">
+            <h3>news</h3>
+            <p>latest Renault news</p>
+        </div>
+    </div>
+
+    <div class="cards1 card3">
+        <div class="cards1-main">
+            <div class="c1 c2"><a href="#">
+                <div>
+                    <img src="./image2/43b20225ed.webp" alt="">
+                </div>
+                <div>
+                    <h4>Awards</h4>
+                </div>
+                <div>
+                    <p>Renault Scenic 100% E-Tech electric wins the 'Best Family EV' category at the Topgear.com Awards 2024</p>
+                </div>
+                <div>
+                    <p>26/02/2024</p>
+                </div>
+            </a></div>
+            <div class="c1 c2"><a href="#">
+                <div>
+                    <img src="./image2/222fe24d98.webp" alt="">
+                </div>
+                <div>
+                    <p>Scenic E-Tech 100% Electric Voted Car of the Year 2024</p>
+                </div>
+                <div>
+                    <p>08/02/2024</p>
+                </div>
+            </a></div>
+            <div class="c1 c2"><a href="#">
+                <div>
+                    <img src="./image2/844c511d15.webp" alt="">
+                </div>
+                <div>
+                    <p>Renault Symbioz : A New Compact Family SUV That Continues The Brand's C- Segment Offensive</p>
+                </div>
+                <div>
+                    <p>08/05/2024</p>
+                </div>
+            </a></div>
+        </div>
+    </div>
+
+    <div class="all-news">
+        <div class="all-news-main">
+            <button>read all our news</button>
+        </div>
+    </div>
+
+    <div class="long-text">
+        <div class="long-text-main">
+            <p>*PCP Finance provided by Mobilize Financial Services, Rivers Office Park, Denham Way, Maple Cross, Rickmansworth, WD3 9YS. Subject to status. Guarantees and indemnities may be required. You must be a UK resident (excluding the Channel Islands) and over 18. Offer based on 6,000 miles pa, excess mileage 8p per mile inc VAT. Terms and conditions apply. Offers cannot be used with other schemes or finance offers. Prices and offers shown are available on specified new vehicles when ordered between 10th May 2024 - 27th May 2024, registered & financed by 30th September 2024. 0% APR requires 30% minimum deposit. Participating dealers only. Speak to your local dealer for more information. Your Renault dealer is a credit broker and not a lender. Lenders will pay commission to your Renault dealer, rates may vary but will not influence the interest rate you pay.</p>
+        </div>
+    </div>
+
+    <div class="help2">
+        <div class="help2-main">
+            <div><a href="#">
+                <div>
+                    <svg fill="#EFDF00" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.00 512.00" xml:space="preserve" stroke="#EFDF00" stroke-width="0.00512" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="2.048"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M383.783,51.897V0H128.217v51.897H73.491v57.897l0.417,1.771c3.905,16.584,20.406,46.298,55.931,52.644 c7.732,48.154,42.514,88.137,89.59,102.14v99.714h-27.516v48.762h-4.875c-26.791,0-48.588,21.797-48.588,48.588V512h235.102 v-48.588c0-26.791-21.796-48.588-48.588-48.588h-4.877v-48.762h-27.515v-99.714c47.076-14.003,81.857-53.986,89.59-102.14 c35.526-6.346,52.028-36.06,55.931-52.644l0.417-1.772V51.897H383.783z M128.217,131.389 c-15.875-6.036-21.754-20.474-23.38-25.587V83.243h23.38V131.389z M320.087,446.171h4.877c9.506,0,17.241,7.734,17.241,17.241 v17.241H169.796v-17.241c0-9.506,7.734-17.241,17.241-17.241h4.875H320.087z M288.74,397.409v17.415h-65.481v-17.415H288.74z M250.776,366.062v-94.496c0.145,0.006,0.29,0.003,0.436,0.009c1.597,0.06,3.193,0.098,4.789,0.098 c1.596,0,3.192-0.039,4.789-0.098c0.145-0.005,0.291-0.003,0.436-0.009v94.496H250.776z M352.435,143.891 c0.001,46.334-32.99,86.184-78.44,94.755c-4.439,0.837-8.945,1.359-13.469,1.568c-1.508,0.07-3.018,0.104-4.526,0.104 c-6.038,0-12.076-0.558-17.994-1.673c-45.452-8.571-78.442-48.421-78.442-94.754V83.243h192.871V143.891z M352.436,51.897H159.564 v-20.55h192.871V51.897z M407.162,105.725c-0.842,2.496-3.034,8.093-7.261,13.565c-4.436,5.743-9.772,9.785-16.119,12.178V83.243 h23.38V105.725z"></path> </g> </g> </g></svg>
+                </div>
+                <div>
+                    <p>build your Renault configure a vehicle today</p>
+                </div>
+            </a></div>
+            <div><a href="#">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="HorizontalCtaBar__iconSvg" style="fill: #EFDF00;"><path fill-rule="evenodd" d="M16.71 22.231c2.94-.66 4.561-2.1 5.43-4.86h-2.429a5.739 5.739 0 0 1-3 2.34v2.52zm-5.82-7.02c0 1.86 1.95 3.57 4.11 3.57s4.111-1.68 4.111-3.57c0-1.74-1.53-2.82-4.11-2.82-2.55 0-4.11 1.11-4.11 2.82zm2.4 7.05v-2.55a5.736 5.736 0 0 1-3-2.34H7.83c.87 2.76 2.49 4.23 5.46 4.89zm6.781-8.49h2.37c-.57-4.35-3.39-6.33-7.44-6.33-4.08 0-6.84 2.01-7.41 6.36H9.9c.66-1.62 2.46-2.61 5.1-2.61 2.61 0 4.44.96 5.07 2.58zm-4.53 9.78v-3.6c-.18.03-.36.03-.54.03-.18 0-.36 0-.54-.03v3.6c-4.59-.21-7.651-3.03-8.01-7.35h3.33c-.06-.33-.12-.66-.12-.99v-.27H6.39c0-5.31 3.36-8.7 8.61-8.7s8.611 3.39 8.611 8.7h-3.27v.27c0 .33-.03.66-.12.99h3.33c-.36 4.32-3.42 7.14-8.01 7.35zm-.54 1.41c6.09 0 10.02-3.9 10.02-9.99 0-6.12-3.87-9.991-10.02-9.991-6.12 0-10.021 3.9-10.021 9.99 0 6.061 3.93 9.991 10.02 9.991zm0 1.23c-6.84 0-11.25-4.44-11.25-11.22C3.75 8.16 8.13 3.75 15 3.75s11.251 4.38 11.251 11.22c0 6.81-4.41 11.22-11.251 11.22z"></path></svg>
+                </div>
+                <div>
+                    <p>try the model book a test drive</p>
+                </div>
+            </a></div>
+            <div><a href="#">
+                <div>
+                    <svg fill="#EFDF00" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#EFDF00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.114-0.011c-6.559 0-12.114 5.587-12.114 12.204 0 6.93 6.439 14.017 10.77 18.998 0.017 0.020 0.717 0.797 1.579 0.797h0.076c0.863 0 1.558-0.777 1.575-0.797 4.064-4.672 10-12.377 10-18.998 0-6.618-4.333-12.204-11.886-12.204zM16.515 29.849c-0.035 0.035-0.086 0.074-0.131 0.107-0.046-0.032-0.096-0.072-0.133-0.107l-0.523-0.602c-4.106-4.71-9.729-11.161-9.729-17.055 0-5.532 4.632-10.205 10.114-10.205 6.829 0 9.886 5.125 9.886 10.205 0 4.474-3.192 10.416-9.485 17.657zM16.035 6.044c-3.313 0-6 2.686-6 6s2.687 6 6 6 6-2.687 6-6-2.686-6-6-6zM16.035 16.044c-2.206 0-4.046-1.838-4.046-4.044s1.794-4 4-4c2.207 0 4 1.794 4 4 0.001 2.206-1.747 4.044-3.954 4.044z"></path> </g></svg>
+                </div>
+                <div>
+                    <p>find your vehicle locate your nearest dealer</p>
+                </div>
+            </a></div>
+            <div><a href="#">
+                <div>
+                    <svg fill="#EFDF00" viewBox="0 0 80 80" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" stroke="#EFDF00"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M78.49,40.13l-8.83-4.91L56,17.9A5,5,0,0,0,52.06,16H11.12a5,5,0,0,0-4.85,3.79L1,40.76A1,1,0,0,0,1,41V55a1,1,0,0,0,1,1H6.06a9,9,0,0,0,17.88,0H52.06a9,9,0,0,0,17.88,0H78a1,1,0,0,0,1-1V41A1,1,0,0,0,78.49,40.13ZM39.37,18H52.06a3,3,0,0,1,2.36,1.14L66.94,35H39.37Zm-2,0V35H11.53l4.25-17ZM15,62a7,7,0,1,1,7-7A7,7,0,0,1,15,62Zm46,0a7,7,0,1,1,7-7A7,7,0,0,1,61,62Zm16-8H69.94a9,9,0,0,0-17.88,0H23.94A9,9,0,0,0,6.06,54H3V41.12L8.21,20.27A3,3,0,0,1,11.12,18h2.6L9.28,35.76a1,1,0,0,0,.18.86,1,1,0,0,0,.79.38H68.74L77,41.59Z"></path></g></svg>
+                </div>
+                <div>
+                    <p>make life easier with My Renault</p>
+                </div>
+            </a></div>
+        </div>
+    </div>
+
+    <div class="tools">
+        <div class="tools-main">
+            <div>
+                <ul>
+                    <li><a href="">Renault tools</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Frequently Asked Questions</a></li>
+                    <li><a href="">Build your Renault</a></li>
+                    <li><a href="">Brochures & price guide</a></li>
+                    <li><a href="">My Renault</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="">Owning a Renault</a></li>
+                    <li><a href="">Book a service</a></li>
+                    <li><a href="">Renault Connect</a></li>
+                    <li><a href="">Accessories</a></li>
+                    <li><a href="">Warranty & insurance</a></li>
+                    <li><a href="">Renault Easy Life</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="">More from Renault</a></li>
+                    <li><a href="">Discover Renault</a></li>
+                    <li><a href="">Careers with Renault</a></li>
+                    <li><a href="">Motorsport</a></li>
+                    <li><a href="">Concept cars</a></li>
+                    <li><a href="">Corporate social responsibility</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="">Stay connected</a></li>
+                </ul>
+                <ul>
+                    <li><img src="./image2/6d5120c171.svg" alt=""></li>
+                    <li><img src="./image2/8a68c90513.svg" alt=""></li>
+                    <li><img src="./image2/5949070f17.svg" alt=""></li>
+                    <li><img src="./image2/60a20f2bf7.svg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cookies">
+        <div class="cookies-main">
+            <div>
+                <ul>
+                    <li><a href="">personal data</a></li>
+                    <li><a href="">legal information</a></li>
+                    <li><a href="">cookies</a></li>
+                    <li><a href="">modern slavery act</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>© Renault 2017 - 2024</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+    });
+</script>
+</html>
